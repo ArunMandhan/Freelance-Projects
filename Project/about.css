@@ -1,0 +1,95 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family:Century Gothic;
+}
+
+header 
+{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bus2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+body
+{
+	background-color:black;
+	
+}
+ul
+{
+	float:right;
+	margin-top:25px;	
+}
+ul li
+{
+	display: inline-block;
+	padding:10px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:white;
+	padding:5px 40px;
+	border:1px solid white;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #FEE227;
+	color:black;
+}
+.about
+{
+	background-color:none;
+	font-size:20px;
+	color:white;
+	width:600px;
+	padding:30px;
+	height:330px;
+	border:none;
+	position: absolute;
+	top:45%;
+	left:24%;
+	transform: translate(-50%,-50%);
+}
+.about h1
+{
+	font-size:80px;
+}
+.about-2
+{
+	background-color:none;
+	font-size:20px;
+	color:white;
+	width:600px;
+	padding:30px;
+	height:330px;
+	border:none;
+	position: absolute;
+	top:45%;
+	left:91%;
+	transform: translate(-50%,-50%);
+}
+.about-2 h1
+{
+	font-size:80px;
+}
+.footer
+{
+	
+	margin-top:auto;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:black;
+	text-align:center;
+	width:100%;
+	color:#FEE227;
+	padding:10px;
+	font-family:Century Gothic;
+	display:flex;
+	flex-direction:column;
+}

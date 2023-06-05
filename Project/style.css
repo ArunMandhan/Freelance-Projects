@@ -1,0 +1,162 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family:Century Gothic;
+}
+
+header 
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bus1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 70vh;
+}
+body
+{
+	background-color:#FEE227;
+	
+}
+ul
+{
+	float:right;
+	margin-top:25px;	
+}
+ul li
+{
+	display: inline-block;
+	padding:10px;
+}
+ul li a
+{
+	text-decoration:none;
+	color:white;
+	padding:5px 40px;
+	border:1px solid white;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #FEE227;
+	color:black;
+}
+ul li.active a
+{
+	background-color: black;
+	color:white;
+}
+.title
+{
+	position: absolute;
+	top:32%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1
+{
+	color:white;
+	font-size:70px;
+}
+.title h2
+{
+	color:white;
+	font-size:20px;
+	text-align:center;
+}
+.button
+{
+	position: absolute;
+	top:45%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn
+{
+	text-decoration:none;
+	color:white;
+	padding:5px 30px;
+	border:1px solid white;
+	transition: 0.6s ease;
+}
+.btn:hover 
+{
+	background-color:#FEE227;
+	color:black;
+}
+.main-service
+{
+	background-color:black;
+	color:#FEE227;
+	text-align:center;
+	padding:10px;
+	font-size:50px;
+	margin-top:10px;
+}
+.service
+{
+	width:23%;
+	padding:0px;
+	float:left;
+	margin-top:30px;
+	margin-left:25px;
+	margin-bottom:20px;
+	background-color:black;
+	height:350px;
+	text-align:center;	
+}
+.heading
+{
+	font-size:30px;
+	background-color:#505050;
+	color:#FEE227;
+	height:45px;
+	padding:10px;
+}
+.cities
+{
+	font-size:20px;
+	color:#FEE227;
+	padding:5px;
+	margin-top:10px;
+	font-family:italic;
+}
+.image 
+{
+	height:200px;
+	width:200px;
+}
+#i1
+{
+	color:#FEE227;
+	font-family:italic;
+	padding:10px;
+	font-size:18px;
+}
+.footer
+{
+	
+	margin-top:auto;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:black;
+	text-align:center;
+	width:100%;
+	color:#FEE227;
+	padding:10px;
+	font-family:Century Gothic;
+	display:flex;
+	flex-direction:column;
+}
+
+
+
+
+
+
+
+
+
+
+	
