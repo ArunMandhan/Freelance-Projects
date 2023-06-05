@@ -1,0 +1,7 @@
+E-COMMERCE WEBSITE IN PHP 
+
+USER LOGIN:
+
+Username: harry
+Password: code0
+
